@@ -1,6 +1,8 @@
-# Learning terraform
+# Learning Terraform
 
-> you ahve to be in the root directory [application/](./application/) to run terraform commands
+![Terraform Graph](./application/graph.png)
+
+> you have to be in the root directory [application/](./application/) to run Terraform commands
 
 ## format files
 
@@ -44,7 +46,7 @@ terraform plan -out check.tfplan
 terraform plan --destroy -out check.tfplan
 ```
 
-## apply with output (will apply exactly what was planned in the .tflan file create/update/destroy)
+## apply with output (will apply exactly what was planned in the .tfplan file create/update/destroy)
 
 ```sh
 terraform apply check.tfplan
